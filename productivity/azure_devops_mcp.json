@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "azure_devops": {
+      "command": "npx",
+      "args": ["-y", "azure-devops-mcp-server"],
+      "env": {
+        "AZURE_DEVOPS_ORG": "your_azure_devops_organization",
+        "AZURE_DEVOPS_PROJECT": "your_azure_devops_project",
+        "AZURE_DEVOPS_TOKEN": "your_azure_devops_personal_access_token"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "asana": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-asana"],
+      "env": {
+        "ASANA_ACCESS_TOKEN": "your_asana_personal_access_token"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "database-query": {
+      "command": "uv",
+      "args": ["run", "python", "-m", "mcp_database_tool"],
+      "env": {
+        "DB_CONNECTION_STRING": "your-connection-string"
+      }
+    }
+  }
+}

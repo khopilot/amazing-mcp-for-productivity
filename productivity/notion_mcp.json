@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "notion-mcp-server"],
+      "env": {
+        "NOTION_API_KEY": "your_notion_integration_token"
+      }
+    }
+  }
+}

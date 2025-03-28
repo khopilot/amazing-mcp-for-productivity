@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "opik": {
+      "command": "npx",
+      "args": ["-y", "@comet-ml/opik-mcp"],
+      "env": {
+        "COMET_API_KEY": "your_comet_api_key_here"
+      }
+    }
+  }
+}

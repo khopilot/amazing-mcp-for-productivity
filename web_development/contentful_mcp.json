@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "contentful": {
+      "command": "npx",
+      "args": ["-y", "contentful-mcp-server"],
+      "env": {
+        "CONTENTFUL_MANAGEMENT_TOKEN": "your_contentful_token_here"
+      }
+    }
+  }
+}

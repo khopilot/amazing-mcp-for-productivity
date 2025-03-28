@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "magic": {
+      "command": "npx",
+      "args": ["-y", "@21st/magic-mcp"],
+      "env": {
+        "OPENAI_API_KEY": "your_openai_api_key_here"
+      }
+    },
+    "opik": {
+      "command": "npx",
+      "args": ["-y", "@comet-ml/opik-mcp"],
+      "env": {
+        "COMET_API_KEY": "your_comet_api_key_here"
+      }
+    },
+    "browserbase": {
+      "command": "node",
+      "args": ["path/to/mcp-server-browserbase/browserbase/dist/index.js"],
+      "env": {
+        "BROWSERBASE_API_KEY": "your_api_key_here",
+        "BROWSERBASE_PROJECT_ID": "your_project_id_here"
+      }
+    },
+    "database-query": {
+      "command": "uv",
+      "args": ["run", "python", "-m", "mcp_database_tool"],
+      "env": {
+        "DB_CONNECTION_STRING": "your-connection-string"
+      }
+    },
+    "qdrant": {
+      "command": "npx",
+      "args": ["-y", "qdrant-mcp-server"],
+      "env": {
+        "QDRANT_URL": "your_qdrant_url",
+        "QDRANT_API_KEY": "your_qdrant_api_key"
+      }
+    }
+  }
+}

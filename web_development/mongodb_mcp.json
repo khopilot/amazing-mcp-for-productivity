@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": ["-y", "@pipedream/mongodb-mcp"],
+      "env": {
+        "MONGODB_URI": "your_mongodb_connection_string_here"
+      }
+    }
+  }
+}

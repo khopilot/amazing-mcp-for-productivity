@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "screenshotone": {
+      "command": "npx",
+      "args": ["-y", "screenshotone-mcp-server"],
+      "env": {
+        "SCREENSHOTONE_API_KEY": "your_screenshotone_api_key_here"
+      }
+    },
+    "stabilityai": {
+      "command": "npx",
+      "args": ["-y", "stability-ai-mcp-server"],
+      "env": {
+        "STABILITY_API_KEY": "your_stability_api_key_here"
+      }
+    },
+    "huggingface": {
+      "command": "npx",
+      "args": ["-y", "huggingface-mcp-server"],
+      "env": {
+        "HF_TOKEN": "your_huggingface_token_here"
+      }
+    },
+    "agentql": {
+      "command": "npx",
+      "args": ["-y", "agentql-mcp"],
+      "env": {
+        "AGENTQL_API_KEY": "your_agentql_api_key_here"
+      }
+    },
+    "hyperbrowser": {
+      "command": "npx",
+      "args": ["-y", "hyperbrowser-mcp"],
+      "env": {
+        "HYPERBROWSER_API_KEY": "your_hyperbrowser_api_key_here"
+      }
+    },
+    "magicai": {
+      "command": "npx",
+      "args": ["-y", "@21st/magic-mcp"],
+      "env": {
+        "OPENAI_API_KEY": "your_openai_api_key_here"
+      }
+    }
+  }
+}

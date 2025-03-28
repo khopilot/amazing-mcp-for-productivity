@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qdrant": {
+      "command": "npx",
+      "args": ["-y", "qdrant-mcp-server"],
+      "env": {
+        "QDRANT_URL": "your_qdrant_url",
+        "QDRANT_API_KEY": "your_qdrant_api_key"
+      }
+    }
+  }
+}

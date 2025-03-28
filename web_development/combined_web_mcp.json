@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "firecrawl": {
+      "command": "npx",
+      "args": ["-y", "@firecrawl/mcp-server"],
+      "env": {
+        "FIRECRAWL_API_KEY": "your_api_key_here"
+      }
+    },
+    "github-tools": {
+      "command": "npx",
+      "args": ["-y", "mcp-github"],
+      "env": {
+        "GITHUB_TOKEN": "your-github-token"
+      }
+    },
+    "vercel": {
+      "command": "npx",
+      "args": ["-y", "vercel-mcp-server"],
+      "env": {
+        "VERCEL_API_TOKEN": "your_vercel_api_token"
+      }
+    },
+    "figma-context": {
+      "command": "npx",
+      "args": ["-y", "figma-context-mcp"],
+      "env": {
+        "FIGMA_API_KEY": "your_figma_api_key",
+        "FIGMA_FILE_ID": "your_figma_file_id"
+      }
+    },
+    "stripe": {
+      "command": "npx",
+      "args": ["-y", "stripe-mcp-server"],
+      "env": {
+        "STRIPE_API_KEY": "your_stripe_api_key"
+      }
+    }
+  }
+}

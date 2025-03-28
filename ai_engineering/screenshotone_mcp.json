@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "screenshotone": {
+      "command": "npx",
+      "args": ["-y", "screenshotone-mcp-server"],
+      "env": {
+        "SCREENSHOTONE_API_KEY": "your_screenshotone_api_key_here"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "zapier": {
+      "command": "npx",
+      "args": ["-y", "zapier-mcp-server"],
+      "env": {
+        "ZAPIER_MCP_URL": "your_zapier_mcp_url"
+      }
+    }
+  }
+}

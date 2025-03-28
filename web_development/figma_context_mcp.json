@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "figma-context": {
+      "command": "npx",
+      "args": ["-y", "figma-context-mcp"],
+      "env": {
+        "FIGMA_API_KEY": "your_figma_api_key",
+        "FIGMA_FILE_ID": "your_figma_file_id"
+      }
+    }
+  }
+}

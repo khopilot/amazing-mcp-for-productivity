@@ -1,0 +1,85 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "npx",
+      "args": ["-y", "mcp-jira-server"],
+      "env": {
+        "JIRA_BASE_URL": "your_jira_instance_url",
+        "JIRA_API_TOKEN": "your_jira_api_token",
+        "JIRA_EMAIL": "your_jira_email"
+      }
+    },
+    "asana": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-asana"],
+      "env": {
+        "ASANA_ACCESS_TOKEN": "your_asana_personal_access_token"
+      }
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "notion-mcp-server"],
+      "env": {
+        "NOTION_API_KEY": "your_notion_integration_token"
+      }
+    },
+    "slack": {
+      "command": "npx",
+      "args": ["-y", "slack-mcp-server"],
+      "env": {
+        "SLACK_BOT_TOKEN": "your_slack_bot_token",
+        "SLACK_APP_TOKEN": "your_slack_app_token"
+      }
+    },
+    "google_workspace": {
+      "command": "npx",
+      "args": ["-y", "google-workspace-mcp-server"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "your_google_client_id",
+        "GOOGLE_CLIENT_SECRET": "your_google_client_secret",
+        "GOOGLE_REFRESH_TOKEN": "your_google_refresh_token"
+      }
+    },
+    "azure_devops": {
+      "command": "npx",
+      "args": ["-y", "azure-devops-mcp-server"],
+      "env": {
+        "AZURE_DEVOPS_ORG": "your_azure_devops_organization",
+        "AZURE_DEVOPS_PROJECT": "your_azure_devops_project",
+        "AZURE_DEVOPS_TOKEN": "your_azure_devops_personal_access_token"
+      }
+    },
+    "google_ads": {
+      "command": "npx",
+      "args": ["-y", "google-ads-mcp-server"],
+      "env": {
+        "GOOGLE_ADS_CLIENT_ID": "your_google_ads_client_id",
+        "GOOGLE_ADS_CLIENT_SECRET": "your_google_ads_client_secret",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "your_google_ads_developer_token",
+        "GOOGLE_ADS_REFRESH_TOKEN": "your_google_ads_refresh_token",
+        "GOOGLE_ADS_CUSTOMER_ID": "your_google_ads_customer_id"
+      }
+    },
+    "osp_marketing": {
+      "command": "npx",
+      "args": ["-y", "osp-marketing-mcp-server"],
+      "env": {
+        "OSP_API_KEY": "your_osp_api_key"
+      }
+    },
+    "timezone": {
+      "command": "npx",
+      "args": ["-y", "timezone-mcp-server"],
+      "env": {
+        "TIMEZONE_API_KEY": "your_timezone_api_key"
+      }
+    },
+    "zapier": {
+      "command": "npx",
+      "args": ["-y", "zapier-mcp-server"],
+      "env": {
+        "ZAPIER_MCP_URL": "your_zapier_mcp_url"
+      }
+    }
+  }
+}

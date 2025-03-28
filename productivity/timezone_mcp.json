@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "timezone": {
+      "command": "npx",
+      "args": ["-y", "timezone-mcp-server"],
+      "env": {
+        "TIMEZONE_API_KEY": "your_timezone_api_key"
+      }
+    }
+  }
+}

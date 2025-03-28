@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "osp_marketing": {
+      "command": "npx",
+      "args": ["-y", "osp-marketing-mcp-server"],
+      "env": {
+        "OSP_API_KEY": "your_osp_api_key"
+      }
+    }
+  }
+}
