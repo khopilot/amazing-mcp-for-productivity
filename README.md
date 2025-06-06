@@ -242,6 +242,17 @@ Vous pouvez également mentionner explicitement l'outil MCP que vous souhaitez u
 
 ### Mode Yolo
 
+## Vérification des serveurs MCP
+
+Un script `validate_mcp_servers.py` est fourni pour vérifier si les paquets référencés dans les fichiers `*_mcp.json` existent sur npm. Exécutez :
+
+```
+python3 validate_mcp_servers.py
+```
+
+Le script parcourt tous les fichiers de configuration et indique `OK` si le paquet est disponible ou `MISSING` sinon.
+
+
 Pour une exécution automatique sans demande d'approbation, vous pouvez activer le "Mode Yolo" dans les paramètres de Cursor. Cela permet à l'agent d'exécuter des outils MCP sans demander votre approbation explicite pour chaque utilisation.
 
 ## Dépannage
